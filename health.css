@@ -1,0 +1,594 @@
+body
+{
+   background-color: #cff1ef;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* nav bar and top starting */
+
+.top
+{
+    padding: 2.4%;
+    background-color: rgb(255, 255, 254);
+}
+.zenth
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo{
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   align-items: center;
+   padding-top: 16px;
+}
+.logo h1
+{
+    display: inline;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 29px;
+    top: -9px;
+}
+.login
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 181px;
+   top: 18px;
+}
+.login:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+
+}
+
+.login1
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 76px;
+   top: 18px;
+}
+.login1:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+}
+.signups li{
+    list-style: none;
+    padding: 5px;
+}
+.signups a
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+
+}
+nav{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color:  #be79df;
+    align-items: center;
+}
+.navlinks
+{
+    position: absolute;
+    left: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.navlinks li
+{
+    list-style: none;
+}
+.navlinks a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.navitem a :hover{
+   background-color: #ac61d4;
+
+}
+.burger
+{
+    display: none;
+}
+.burger div
+{
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: rgb(247, 247, 247);
+}
+/* end of nav and top */
+
+
+/* after nav */
+.healthmain
+{
+    position: relative;
+    background-color: #fae0df;
+    width: 100%;
+    height: 440px;
+}
+.healthcontainer
+{
+    position: relative;
+    height: 610px;
+    width: 100%;
+    background-color: white;
+    margin-top:  1%;
+}
+
+.healthgal
+{
+    position: absolute;
+    left: 55%;
+    top: 19%;
+    width: 480px;
+    height: 360px;
+    box-shadow: 5px 2.5px  9px violet;
+
+}
+
+.healthpara p
+{
+    position: absolute;
+    top: 10%;
+    background-color: #ac61d4;
+    color: white;
+    padding: 3%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 20%;
+    left: 13%;
+    border-radius: 5%;
+    box-shadow: 5px 2.5px  9px rgba(78, 64, 92, 0.8);
+}
+.afterheath
+{
+    width: 100%;
+    min-height: 110vh;
+    background-color: #cff1ef;
+    position: relative;
+    margin: auto;
+    padding-top: 30px;
+    top: 213px;
+}
+
+.record{
+    margin: 4%;
+}
+.medical
+{
+    display: inline;
+    margin: 15%;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+}
+.health-button
+{
+    font-size: 2rem;
+    color: rgb(132, 215, 230);
+    background-color: rgb(190, 86, 194);;
+}
+.health-button:hover
+{
+    background-color: rgb(55, 31, 95);
+    color: white;
+    box-shadow: 5px 2.5px  9px rgba(78, 64, 92, 0.8);
+    padding: 10px;
+
+}
+hr
+{
+    border: 1px dashed black;
+}
+/* end of top part after nav */
+/* features section */
+.features
+{
+    left: 29%;
+    position: absolute;
+    font-size: 4.3rem;
+    text-align: center;
+    margin: 8%;
+    margin-top: 1%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+/* card setting */
+.cardcontainer
+{
+    width: 100%;
+    border-radius: 10px;
+    background-color:#fdb827;
+    position: relative;
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+    top: 117px;
+
+}
+.cardcontainer .boxes
+{
+    position: relative;
+    margin-right: 63px;
+    margin-left: 64px;
+}
+.cardcontainer .boxes .face
+{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.cardcontainer .boxes .face.face1
+{
+    position: relative;
+    background-color: #5f53d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.cardcontainer .boxes:hover .face.face1
+{
+    background: #890d94;
+    transform: translateY(0px);
+    border-radius: 10px;
+}
+
+.cardcontainer .boxes .face.face1 .content
+{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+span
+{
+   color: red;
+   font-weight: 700;
+   font-style: italic;
+}
+.cardcontainer .boxes:hover .face.face1 .content
+{
+    opacity: 1;
+    color: white;
+}
+
+.cardcontainer .boxes .face.face1 .content h3
+{
+    margin: 10px 0 0 ;
+    padding: 0;
+    color: #f9f9fa;;
+}
+
+.cardcontainer .boxes:hover .face.face1 .content h3
+{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+}
+
+
+.cardcontainer .boxes .face.face2
+{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px violet;
+    transform: translateY(-100px);
+
+}
+.cardcontainer .boxes:hover .face.face2
+{
+    transform: translateY(0);
+    border-radius: 10px;
+}
+
+
+.cardcontainer .boxes .face.face2 .content p
+{
+    margin: 0px;
+    padding: 0;
+}
+
+.cardcontainer .boxes .face.face2 .content a
+{
+    margin: 15px 0 0;
+    display: inline-block;
+
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+.cardcontainer .boxes .face.face2 .content a:hover
+{
+    background: #333;
+    color: white;
+
+}
+
+.box1 .box2 .box3
+{
+    margin:40px;
+}
+ /* card ending */
+.hr1
+{
+    position: relative;
+    bottom: -23vh;
+}
+.health
+{
+    width: 100%;
+    height: 190vh;
+    position: relative;
+    bottom: -137px;
+    background-color: #;
+}
+.health1
+{
+  background-color: white;
+  margin: 5%;
+  height: 29%;
+  width: 30%;
+  padding: 3%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 20px 50px violet;
+}
+.health2
+{
+  background-color: white;
+  margin: 5%;
+  height: 29%;
+  width: 30%;
+  padding: 3%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 20px 50px violet;
+}
+
+.health3
+{  position: absolute;
+  top:10%;
+  left: 40%;
+  background-color: white;
+  margin: 5%;
+  height:55%;
+  width: 39%;
+  padding: 3%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 20px 50px violet;
+}
+.h13
+{
+    font-weight: 900;
+    font-size: 32px;
+    padding-top:  12px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.healthinput
+{
+    margin: 3%;
+    margin-right: 23%;
+    font-size: 1.3rem;
+    background-color: #ffc93c;
+    width:80%;
+}
+h6
+{
+    font-style: italic;
+    font-size: 22px;
+    display: inline;
+}
+.add-button
+{
+    margin: 3%;
+    border-radius: 40%;
+    padding: 14px;
+    background: red;
+    color: white;
+    font-size: 3rem;
+}
+.add-button:hover
+{
+    border-radius: 50%;
+    padding: 18px;
+    background: red;
+    color: white;
+    font-size: 16px;
+}
+.med
+{
+    display:block;
+    margin: 3%;
+    margin-right: 23%;
+    font-size: 1.3rem;
+    background-color: #ffc93c;
+    width:90%;
+
+}
+.med1{
+  display:block;
+  margin: 3%;
+  margin-right: 23%;
+  margin-top: 10%;
+  font-size: 1.3rem;
+  background-color: #ffc93c;
+  width:90%;
+  height:50%;
+
+}
+.med-button{
+  background-color: red;
+  margin: 4%;
+  font-size: 1.5rem;
+}
+.increases
+{
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+.doc
+{
+    float: right;
+    right: 110px;
+    height:70%;
+
+}
+.blockchain{
+  margin: 8%;
+  position: relative;
+  height: 55rem;
+}
+.bimg{
+  margin: 5%;
+  margin-left: 30%;
+  height: 30%;
+}
+.bpar{
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 30%;
+  line-height: 1.5;
+}
+/* end of after nav */
+
+/* social media icons */
+.fab{
+    position: relative;
+    bottom: -52px;
+    font-size: 3rem;
+    margin: 3%;
+  }
+  .fas{
+    position: relative;
+    bottom: -52px;
+    font-size: 3rem;
+    margin: 3%;
+    float: right;
+    margin: 3%;
+  }
+
+  @media (max-width:1150px)
+  {
+   .navlinks a
+   {
+     font-size: 17px;
+     margin:2%;
+   }
+  }
+
+
+  @media (max-width:980px)
+  {
+    .logo h1{
+      font-size: 1.5rem;
+    }
+    .login{
+      padding: 0.2rem;
+      margin: 0.3%;
+    }
+    .login1{
+      padding: 0.2rem;
+      margin: 0.3%;
+    }
+    .navlinks{
+      left:70px;
+    }
+    .navlinks a
+    {
+      font-size: 15px;
+      margin:2%;
+    }
+    .navlinks li{
+      margin-left:2%;
+      margin-right: 2%;
+    }
+  }
+
+  @media (max-width:620px)
+  {
+    .logo h1{
+      font-size: 1.2rem;
+      top:10px;
+    }
+    .login{
+      padding: 0;
+      margin: 0.0;
+      top:10px;
+    }
+    .login1{
+      padding: 0.0;
+      margin: 0.0;
+      top:10px;
+    }
+    .navlinks
+    {
+      left:90px;
+    }
+
+    .navlinks a
+    {
+      font-size: 13px;
+      padding-left: 28%;
+      font-weight: bolder;
+
+    }
+    .navlinks li{
+      margin-left:3%;
+      margin-right: 3%;
+
+
+    }
+  }

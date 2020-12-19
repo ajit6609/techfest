@@ -1,0 +1,389 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(0, 233, 250);
+    overflow-x: hidden;
+}
+.top
+{
+    padding: 2%;
+    background-color: rgb(255, 255, 254);
+}
+.zenth
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo{
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   align-items: center;
+   padding-top: 16px;
+}
+.logo h1
+{
+    display: inline;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 29px;
+    top: -8px;
+}
+.login
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 181px;
+   top: 18px;
+}
+.login:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+
+}
+
+.login1
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 76px;
+   top: 18px;
+}
+.login1:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+}
+.signups li{
+    list-style: none;
+    padding: 5px;
+}
+.signups a
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+
+}
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    min-height: 3vh;
+    background-color:  #be79df;
+    align-items: center;
+}
+.navlinks
+{
+    position: absolute;
+    left: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.navlinks li
+{
+    list-style: none;
+}
+.navlinks a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.navitem a :hover{
+   background-color: #ac61d4;
+
+}
+.burger
+{
+    display: none;
+}
+.burger div
+{
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: rgb(247, 247, 247);
+}
+/* gallery after nav */
+#gall
+{
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 900;
+    font-style: bold;
+    font-family: sans-serif;
+}
+.gallery
+{
+    width: 163vh;
+    background-color: yellow;
+    min-height: 45vh;
+    border-radius: 15px;
+    margin:0.2%;
+    position: relative;
+    top: 50px;
+    left: 112px;
+}
+.galwrite
+{
+    position: relative;
+    top: 198px;
+    width: 160vh;
+    left: 203px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.smile
+{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    align-items: center;
+    position: relative;
+    top: 226px;
+    left: 103px;
+}
+.smallimgs
+{
+    position: relative;
+    top:210px;
+    min-height: 89vh;
+    background-color: white;
+
+}
+.cards
+{
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 111px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 54px 147px;
+    background-image: url(images/edu.jpg);
+    background-position:center;
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+.cards h1
+{
+    font-size: 22px;
+    color: white;
+    font-weight: 900;
+}
+.cards p
+{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(255, 254, 253);
+}
+.card1{
+    background-image: url("images/plantationday.jpeg");
+}
+.card2{
+    background-image: url("images/trip.jpeg");
+}
+.card3{
+    background-image: url("images/empowerment.jpeg");
+}
+.card4{
+    background-image: url("images/movement.jpeg");
+}
+.card5{
+    background-image: url("images/fun.jpeg");
+}
+.card6{
+    background-image: url("images/checkup.jpeg");
+}
+.card7{
+    background-image: url("images/migration.jpeg");
+}
+.card8{
+    background-image: url("images/eduhelp.jpeg");
+}
+hr
+{
+    position: absolute;
+    bottom: 12px;
+    width: 100%;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 3px;
+}
+.smollcontact
+{
+    width:73vh;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: black;
+}
+.bottom
+{
+    position: absolute;
+    width: 100%;
+    height: 17vh;
+    background-color: white;
+    top: 246vh;
+    overflow-x: hidden ;
+
+}
+.cards:hover
+{
+    transform: translateY(-10px)
+}
+.bottom img
+{
+    width: 29px;
+    height: 29px;
+    margin: 25px;
+}
+.bottom img:hover
+{
+    width: 33px;
+    height: 33px;
+}
+/* social media icon */
+/* slider start */
+
+.sliderBox
+{
+    position: relative;
+    left: 620px;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%
+    {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.sliderBox span
+{
+    position: absolute;
+    top: 53px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent,#0004)
+}
+.sliderBox span img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* slider end */
+
+
+@media (max-width:1150px)
+{
+ .navlinks a
+ {
+   font-size: 17px;
+   margin:2%;
+ }
+}
+
+
+@media (max-width:980px)
+{
+  .logo h1{
+    font-size: 1.5rem;
+  }
+  .login{
+    padding: 0.2rem;
+    margin: 0.3%;
+  }
+  .login1{
+    padding: 0.2rem;
+    margin: 0.3%;
+  }
+  .navlinks{
+    left:70px;
+  }
+  .navlinks a
+  {
+    font-size: 15px;
+    margin:2%;
+  }
+  .navlinks li{
+    margin-left:2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width:620px)
+{
+  .logo h1{
+    font-size: 1.2rem;
+    top:10px;
+  }
+  .login{
+    padding: 0;
+    margin: 0.0;
+    top:10px;
+  }
+  .login1{
+    padding: 0.0;
+    margin: 0.0;
+    top:10px;
+  }
+  .navlinks
+  {
+    left:90px;
+  }
+
+  .navlinks a
+  {
+    font-size: 13px;
+    padding-left: 28%;
+    font-weight: bolder;
+
+  }
+  .navlinks li{
+    margin-left:3%;
+    margin-right: 3%;
+
+
+  }
+}

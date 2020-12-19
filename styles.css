@@ -1,0 +1,1035 @@
+body
+{
+   background-color: #cff1ef;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*ALL THE SECTION DESIGN*/
+
+.page1 ,.page2 ,.page3, .page4, .page5
+{
+   position: relative;
+   width: 100%;
+   height: 110vh;
+   background-color: #cff1ef;
+   margin-bottom: 7%;
+}
+.page4{
+  height: 90vh;
+}
+/* .page2
+{
+   background-color: white;
+}
+.page3
+{
+   background-color: rgb(173, 109, 109);
+} */
+
+.top
+{
+    padding: 3%;
+    background-color: rgb(255, 255, 254);
+}
+.zenth
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo{
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   align-items: center;
+   padding-top: 16px;
+}
+.logo h1
+{
+    display: inline;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 29px;
+    top: 23px;
+}
+.login
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 181px;
+   top: 18px;
+}
+.login:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+
+}
+
+.login1
+{
+   float: right;
+   padding: 0.5rem;
+   margin: 0.7%;
+   background-color: yellow;
+   margin-right: 1.5%;
+   position: absolute;
+   right: 76px;
+   top: 18px;
+}
+.login1:hover
+{
+   background-color: rgb(0, 233, 250);
+   padding: 0.7rem;
+   margin: 0.9%;
+}
+.signups li{
+    list-style: none;
+    padding: 5px;
+}
+.signups a
+{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+
+}
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color:  #be79df;
+    align-items: center;
+}
+.navlinks
+{
+    position: absolute;
+    left: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.navlinks li
+{
+    list-style: none;
+}
+.navlinks a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.navitem a :hover{
+   background-color: #ac61d4;
+
+}
+.burger
+{
+    display: none;
+}
+.burger div
+{
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: rgb(247, 247, 247);
+}
+
+.container
+{
+    position: relative;
+    min-height: 80vh;
+    background-color: #ffffff;
+    width: 161vh;
+    top: 37px;
+    left: 111px;
+    border-radius: 69px;
+}
+.intro h1
+{
+   position: absolute;
+   top: 95px;
+   left: 136px;
+   text-decoration: underline;
+   line-height: 0rem;
+   font-size: 3rem;
+   padding-bottom: 11px;
+   font-family: sans-serif;
+   font-weight: 300;
+}
+.para
+{
+   position: absolute;
+   width: 50%;
+   height:35%;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+.intro p{
+    position: absolute;
+    top: 147px;
+    left: 136px;
+    overflow-wrap: break-word;
+}
+.image
+{
+   position: absolute;
+   top: 117px;
+   right: 200px;
+   width: 431px;
+   height: 382px;
+}
+/* svg animation start */
+
+#rear, #front
+{
+    animation: wheel 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes wheel
+{
+    from
+    {
+         transform: rotateZ(0deg);
+    }
+    to
+    {
+        transform: rotateZ(360deg);
+
+    }
+}
+#manOnthebike
+{
+    animation: bike 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+@keyframes bike
+{
+    from
+    {
+        transform: rotateX(0deg);
+    }
+    to
+    {
+        transform: rotateX(20deg);
+    }
+}
+#hat
+{
+    animation: hat 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes hat
+{
+    from
+    {
+        transform: translateY(0%);
+    }
+    to
+    {
+        transform: translateY(30%);
+    }
+}
+/* svg animation end */
+ .container3
+ {
+   background-color: #e8e8e8;
+   min-height: 123vh;
+ }
+ .header h1
+ {
+
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    top: 40px;
+    padding-top: 5%;
+    padding-left: 35%;
+ }
+ /* the card starting */
+.cardcontainer
+{
+    width: 180vh;
+    border-radius: 10px;
+    background-color: #fadcaa;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 117px;
+    left: 100px;
+}
+.cardcontainer .boxes
+{
+    position: relative;
+    margin-right: 32px;
+    margin-left: 23px;
+}
+.cardcontainer .boxes .face
+{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.cardcontainer .boxes .face.face1
+{
+    position: relative;
+    background-color: #ac61d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.cardcontainer .boxes:hover .face.face1
+{
+    background: #ff0057;
+    transform: translateY(0px);
+    border-radius: 10px;
+}
+
+.cardcontainer .boxes .face.face1 .content
+{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+span
+{
+   color: red;
+   font-weight: 700;
+   font-style: italic;
+}
+.cardcontainer .boxes:hover .face.face1 .content
+{
+    opacity: 1;
+    color: white;
+}
+
+.cardcontainer .boxes .face.face1 .content h3
+{
+    margin: 10px 0 0 ;
+    padding: 0;
+    color: #3a0955;;
+}
+
+.cardcontainer .boxes:hover .face.face1 .content h3
+{
+    opacity: 1;
+    color: white;
+}
+
+
+.cardcontainer .boxes .face.face2
+{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+
+}
+.cardcontainer .boxes:hover .face.face2
+{
+    transform: translateY(0);
+    border-radius: 10px;
+}
+
+
+.cardcontainer .boxes .face.face2 .content p
+{
+    margin: 0px;
+    padding: 0;
+}
+
+.cardcontainer .boxes .face.face2 .content a
+{
+    margin: 15px 0 0;
+    display: inline-block;
+
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+.cardcontainer .boxes .face.face2 .content a:hover
+{
+    background: #333;
+    color: white;
+
+}
+
+.box1 .box2 .box3
+{
+    margin:50px;
+}
+ /* card ending */
+
+ /*PAGE 4*/
+ #header1,#header2, #header5
+ {
+    position:absolute;
+    font-size: 4.5rem;
+    font-weight: 200;
+    top:2%;
+    margin-left: 35%;
+    font-family: sans-serif;
+ }
+ #header5
+ {
+   margin-left: 30%;
+ }
+ .container4
+{
+    position: relative;
+    min-height: 84vh;
+    background-color: #cff1ef;
+    overflow-x:hidden ;
+}
+.para4
+{
+    position: relative;
+    width: 45%;
+    height:35%;
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.page4 p
+{
+   position: absolute;
+   top: 168px;
+   left: 170px;
+   font-size: 25px;
+   box-shadow:  2px 4px 71px cadetblue;
+
+}
+.visionpic
+{
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   top:168px;
+   right: 170px;
+}
+
+/*PAGE 5*/
+.container5
+{
+    position: relative;
+    margin: 2%;
+    margin-top: 3%;
+
+    background-color: rgb(255, 255, 255);
+    min-height: 71vh;
+    min-width: 8px;
+    top: 110px;
+    border-radius: 26px;
+}
+
+.para5
+{
+    position: absolute;
+    width: 35%;
+    height:35%;
+    font-size: 25px;
+
+
+}
+
+
+.page5 p
+{
+   position: relative;
+   top: 30%;
+   left: 15%;
+   box-shadow: 2px 4px 71px cadetblue;
+   background-color: #f1f1f1;
+   font-family: sans-serif;
+   font-weight:bold;
+
+
+}
+.map
+{
+   position: absolute;
+   width: 350px;
+   height: 300px;
+   top: 90px;
+   right: 256px;
+}
+.map img
+{
+   width: 480px;
+}
+/*PAGE6*/
+
+.page6
+{
+   position: relative;
+   width: 100%;
+   height: 15vh;
+   background-color: #cff1ef;
+}
+.container8
+{
+   height: 50rem;
+   background-color: #fecd1a;
+   font-family: sans-serif;
+}
+
+.scocialogo
+{
+   position: absolute;
+   top: 50%;
+   left: 26%;
+   border: 1px solid black;
+   width: 50%;
+   height: 25%;
+}
+.scolinks
+{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding-top: 6px;
+   text-decoration: none;
+}
+.scolinks img
+{
+    width: 26px;
+    height: 26px;
+    margin: 7px;
+}
+.scolinks img:hover
+{
+   width: 29px;
+   height: 29px;
+}
+.scolinks li
+{
+   list-style: none;
+}
+.sneha
+{
+
+   font-size: 48px;
+   text-decoration: underline;
+}
+.ajit
+{
+   font-size: 48px;
+   text-decoration: underline;
+}
+
+.contactlogo
+{
+   position: absolute;
+   top: 93%;
+   left: 26%;
+   width: 50%;
+   height: 7%;
+}
+.lg
+{
+   position: absolute;
+   top: 90%;
+   left: 26%;
+   padding-bottom:0.2%;
+   height: 8%;
+}
+
+.contlink
+{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding-top: 12px;
+   text-decoration: none;
+}
+.contlink li
+{
+   list-style: none;
+}
+.line
+{
+   position: absolute;
+   top: -9px;
+   left: 150px;
+   height: 1px;
+   width: 83%;
+   border: 1px dotted black;
+   background-color: black;
+
+}
+.line1
+{
+   position: absolute;
+   top: 105.6vh;
+   left: 150px;
+   height: 1px;
+   width: 83%;
+   border: 1px dashed black;
+   background-color: black;
+}
+
+.aboutus
+{
+   position: absolute;
+   width: 35%;
+   height:35%;
+}
+
+.aboutus p
+{
+   position: absolute;
+   top: 244px;
+   left: 170px;
+   background-color:  #e6e6e6;
+}
+.aboutus li
+{
+   position: absolute;
+   display: inline-block;
+   justify-content: space-around;
+   top: 340px;
+   left: 170px;
+}
+.visionpic img{
+   width: 500px;
+   margin-right: 110px;
+   position: relative;
+   left: -70px;
+
+}
+/* girl svg start */
+#lef1
+{
+    animation: leaf1 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box ;
+}
+@keyframes leaf1
+{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-10deg);
+    }
+}
+#lef2
+{
+    animation: leaf2 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box ;
+}
+@keyframes leaf2
+{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(10deg);
+    }
+}
+#lef3
+{
+    animation: leaf3 1s infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box ;
+}
+@keyframes leaf3
+{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(20deg);
+    }
+}
+
+#dot1
+{
+    animation: dot1 10s ease-in ;
+}
+@keyframes dot1
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#dot2
+{
+    animation: dot2 10.2s ease-in;
+}
+@keyframes dot2
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#dot3
+{
+    animation: dot3 10.4s ease-in;
+}
+@keyframes dot3
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#dot4
+{
+    animation: dot4 10.6s ease-in;
+}
+@keyframes dot4
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#dot5
+{
+    animation: dot5 10.9s ease-in;
+}
+@keyframes dot5
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#dot6
+{
+    animation: dot6 11.3s ease-in;
+}
+@keyframes dot6
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* girl svg end */
+.aboutuspage
+{
+   background-color:  #ffffff;
+}
+.aboutus p{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 3%;
+}
+.aboutus{
+  position: absolute;
+  top:0;
+  width: 40%;
+}
+
+
+.vision-topic{
+
+   margin:5% 37%;
+   font-family: sans-serif;
+   font-size: 4rem;
+   font-weight: 200;
+   text-decoration: underline;
+ }
+ .vision-text{
+   background-color: #ffd66b;
+   margin:0 8%;
+   padding:2% 15%;
+   font-weight: bold;
+   font-family: sans-serif;
+   line-height: 1.5rem;
+   box-shadow: 5px 2.5px  9px rgba(109, 124, 211, 0.8);
+
+ }
+ .vision-button{
+   background-color: yellow;
+   margin: 2% 40%;
+   font-size: 1.5rem;
+   transition: 0.3s ease-in-out;
+ }
+ .vision-button:hover
+ {
+   background-color: rgb(64, 203, 212);
+   box-shadow: 5px 2.5px  9px rgba(109, 124, 211, 0.8);
+   transform: translateY(90deg);
+   color: white;
+}
+
+
+/* slideshow*/
+
+.slider {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+.image-container {
+  width: 1500px;
+  background-color: pink;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slide {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+.contact
+{
+    line-height: 2.5;
+    font-size: 36px;
+    color: black;
+    text-decoration: underline
+}
+
+.fab{
+   font-size: 3rem;
+   margin: 3%;
+ }
+ .fas{
+   float: right;
+   font-size: 3rem;
+   margin: 3%;
+ }
+ /* update-slider start */
+ /* .update
+{
+    width: 40%;
+    height: 450px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    background-color: black;
+    margin: 5%;
+    margin-bottom: 0;
+    position:relative;
+    top:20%;
+    left: 375px;
+    border-radius: 15px;
+} */
+.update
+{
+   width: 60%;
+   height: 450px;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   display: flex;
+   background-color: black;
+   margin: 5%;
+   margin-bottom: 0;
+   position:relative;
+   top:20%;
+   left: 15%;
+   border-radius: 15px;
+}
+.update .item
+{
+    flex: 0 0 800px;
+    width: 700px;
+    display: inline-block;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    padding: 8%;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+.itemb{
+  margin-left: 35%;
+  font-size: 1.5rem;
+}
+.links
+{
+    padding-left: 45%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.links a{
+    background-color: rgb(187, 104, 204);
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.links a:hover
+{
+    background-color: rgb(69, 34, 90);
+    color: white;
+}
+.update .item h1
+{
+    font-size: 24px;
+    font-style: bold;
+}
+.update .item p
+{
+    font-size: 18px;
+    color: wheat;
+    margin: 2%;
+}
+ /* update-slider end */
+ @media (max-width:1150px)
+{
+  .navlinks a
+  {
+    font-size: 17px;
+    margin:2%;
+  }
+}
+
+
+ @media (max-width:980px)
+ {
+   .logo h1{
+     font-size: 1.5rem;
+   }
+   .login{
+     padding: 0.2rem;
+     margin: 0.3%;
+   }
+   .login1{
+     padding: 0.2rem;
+     margin: 0.3%;
+   }
+   .navlinks{
+     left:70px;
+   }
+   .navlinks a
+   {
+     font-size: 15px;
+     margin:2%;
+   }
+   .navlinks li{
+     margin-left:2%;
+     margin-right: 2%;
+   }
+ }
+
+ @media (max-width:620px)
+ {
+   .logo h1{
+     font-size: 1.2rem;
+     top:10px;
+   }
+   .login{
+     padding: 0;
+     margin: 0.0;
+     top:10px;
+   }
+   .login1{
+     padding: 0.0;
+     margin: 0.0;
+     top:10px;
+   }
+   .navlinks
+   {
+     left:90px;
+   }
+
+   .navlinks a
+   {
+     font-size: 13px;
+     padding-left: 28%;
+     font-weight: bolder;
+
+   }
+   .navlinks li{
+     margin-left:3%;
+     margin-right: 3%;
+
+
+   }
+ }
